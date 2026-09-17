@@ -1,8 +1,30 @@
 {
     "name": "manishnlet77/laravel-youtube",
-    "description": "A production-ready, open-source Laravel Composer package for integrating a public YouTube channel using only its handle.",
+    "description": "A production-ready, open-source Laravel Composer package for integrating a public YouTube channel effortlessly. Auto-sync videos, shorts, and cache without database dependencies.",
+    "keywords": [
+        "laravel",
+        "youtube",
+        "youtube-api",
+        "youtube-data-api",
+        "video-sync",
+        "shorts",
+        "laravel-youtube",
+        "caching",
+        "api"
+    ],
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Manish Nlet",
+            "email": "contact@manishnlet.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/manishnlet77/laravel-youtube/issues",
+        "source": "https://github.com/manishnlet77/laravel-youtube"
+    },
     "require": {
         "php": "^8.1",
         "illuminate/support": "^10.0|^11.0|^12.0",
