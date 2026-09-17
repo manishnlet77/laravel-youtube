@@ -59,6 +59,10 @@ class SetupCommand extends Command
             $this->info("Synchronization complete!");
             $this->info("Processed Videos: " . $result['videos_processed']);
             $this->info("Shorts Discovered: " . $result['shorts_found']);
+            
+            $this->info("");
+            $this->info("🎉 Setup Successful!");
+            $this->line("View your beautiful channel demo at: <fg=blue>" . url('youtube/demo') . "</>");
 
         } catch (\Exception $e) {
             $this->error("API Error: " . $e->getMessage());
